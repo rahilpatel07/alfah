@@ -1,0 +1,1533 @@
+* {
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+@media only screen and (min-width:900px) and (max-width: 1600px) {
+
+    /* <!-- For Desktop --> */
+    .navbar-nav {
+        margin-right: 20px;
+    }
+
+    .img {
+
+        margin-left: 10px;
+    }
+
+    .position {
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        width: 80%;
+    }
+
+    .position h2 {
+        font-size: 4rem;
+        margin-bottom: 3px !important;
+
+    }
+
+    .position p {
+        font-size: 2rem;
+    }
+
+    .position button {
+        font-size: 1.5rem;
+    }
+
+    .upper {
+        position: absolute;
+        top: 90%;
+        left: 25%;
+        width: 60%;
+
+    }
+
+    .menu {
+        position: absolute;
+        top: 125%;
+        left: 0%
+    }
+
+    .menu .left-card {
+        padding: 70px 30px !important;
+    }
+
+    .bck-img {
+        position: absolute;
+        top: 220%;
+    }
+
+    .bck-img::before {
+        content: '';
+        width: 100%;
+        height: 1000px;
+        background-image: url(../images/b1\ \(2\).jpg);
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+        position: absolute;
+        top: 0%;
+        z-index: -1;
+        opacity: .82;
+
+
+    }
+
+    .rate {
+        position: absolute;
+        top: 345%;
+    }
+
+    .rate .card {
+        border: none;
+    }
+
+    .bck-3 {
+        position: absolute;
+        top: 394%;
+
+    }
+
+    .bck-3::before {
+        content: '';
+        width: 100%;
+        height: 800px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        /* background-color: black; */
+        background: url(../images/b1\ \(3\).jpg);
+        background-size: COVER;
+        z-index: -1;
+        opacity: .79;
+        /* box-shadow:  -5px -4px 20px black; */
+
+
+    }
+
+    .container-text::before {
+        content: '';
+        width: 70px;
+        height: 10px;
+        border: 4px solid red;
+        position: absolute;
+        left: 44%;
+        top: 28%;
+        border-left: none;
+        border-right: none;
+
+
+    }
+
+    .container-text::after {
+        content: '';
+        width: 70px;
+        height: 10px;
+        border: 4px solid red;
+        position: absolute;
+        right: 44%;
+        top: 28%;
+        border-left: none;
+        border-right: none;
+
+
+    }
+
+    .bck-4 {
+        position: absolute;
+        top: 495%;
+        /* background-attachment: fixed; */
+        /* border: 2px solid; */
+
+
+    }
+
+    .fluid-text::before {
+        content: '';
+        width: 70px;
+        height: 10px;
+        border: 4px solid red;
+        position: absolute;
+        left: 44%;
+        top: 58%;
+        border-left: none;
+        border-right: none;
+
+
+    }
+
+    .fluid-text::after {
+        content: '';
+        width: 70px;
+        height: 10px;
+        border: 4px solid red;
+        position: absolute;
+        right: 44%;
+        top: 58%;
+        border-left: none;
+        border-right: none;
+
+
+    }
+
+    .bck-5 {
+        position: absolute;
+        top: 542%;
+    }
+
+    .bck-5::before {
+        content: '';
+        width: 100%;
+        height: 300px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -1;
+
+        background: url(../images/b2.jpg);
+        background-size: cover;
+    }
+
+    .card {
+        border: none !important;
+    }
+
+    .bck-6 {
+        position: absolute;
+        top: 580%;
+        padding: 30px 0px !important;
+        color: red !important;
+    }
+
+}
+
+@media only screen and (max-width:1366px) {
+
+    /* <!-- For Desktop --> */
+    .navbar-nav {
+        margin-right: 20px;
+    }
+
+    .nav-link {
+        font-size: 18px;
+    }
+
+    .img {
+        width: 200px;
+        margin-left: 10px;
+    }
+
+    .position {
+        position: absolute;
+        top: 34%;
+        left: 6%;
+        width: 100%;
+    }
+
+    .position h2 {
+        font-size: 3rem;
+    }
+
+    .upper {
+        position: absolute;
+        top: 83%;
+        left: 21%;
+        width: 60%;
+
+    }
+
+    .menu {
+        position: absolute;
+        top: 130%;
+        left: 0%;
+
+    }
+
+    .menu .left-card {
+        width: 35rem !important;
+        padding-top: 30px !important;
+    }
+
+    .menu .left-card h2 {
+        font-size: 1.5rem !important;
+        margin-top: 0px !important;
+    }
+
+    .menu .card-body p {
+        font-size: 18px !important;
+    }
+
+    .menu .card {
+        height: 400px;
+    }
+
+    .bck-img {
+        flex-wrap: wrap;
+    }
+
+    .bck-img .card {
+        width: 300px !important;
+        padding: 0 !important;
+    }
+
+    .bck-img .card-body img {
+        margin-top: 0px !important;
+    }
+
+    .bck-img .container-img {
+        width: 480px !important;
+    }
+
+    .rate {
+        position: absolute;
+        top: 335%;
+    }
+
+    .rate .card {
+        border: none;
+    }
+
+    .bck-3 {
+        position: absolute;
+        top: 397%;
+        /* border: 2px solid; */
+        align-items: center !important;
+        justify-content: space-evenly !important;
+        padding: 30px 0px !important;
+
+    }
+
+    .bck-3::before {
+        content: '';
+        width: 100%;
+        height: 926px;
+        position: absolute;
+        top: -102px;
+        left: 0;
+        /* background-color: black; */
+        background: url(../images/b3.jpg) no-repeat center center fixed;
+        background-size: COVER;
+        z-index: -1;
+        opacity: .79;
+        /* box-shadow:  -5px -4px 20px black; */
+
+
+    }
+
+    .container-text::before {
+        content: '';
+        width: 90px;
+        height: 10px;
+        border: 4px solid red;
+        position: absolute;
+        left: 41%;
+        top: 27%;
+        /* transform: rotate(-30deg); */
+        border-left: none;
+        border-right: none;
+        /* margin-bottom: 0px !important; */
+
+
+    }
+
+    .container-text::after {
+        content: '';
+        width: 90px;
+        height: 10px;
+        border: 4px solid red;
+        position: absolute;
+        right: 41%;
+        top: 27%;
+        /* transform: rotate(30deg); */
+        border-left: none;
+        /* margin-bottom: 0px !important; */
+        border-right: none;
+    }
+
+    .bck-3 .container-image {
+        margin: 5px 0px !important;
+        padding: 0px !important;
+        width: 200px;
+    }
+
+    .bck-4 {
+        position: absolute;
+        top: 500%;
+        /* background-attachment: fixed; */
+        /* border: 2px solid; */
+
+
+    }
+
+    .fluid-text::before {
+        content: '';
+        width: 90px;
+        height: 10px;
+        border: 4px solid red;
+        position: absolute;
+        left: 39%;
+        top: 62%;
+        border-left: none;
+        border-right: none;
+
+
+    }
+
+    .fluid-text::after {
+        content: '';
+        width: 90px;
+        height: 10px;
+        border: 4px solid red;
+        position: absolute;
+        right: 39%;
+        top: 62%;
+        border-left: none;
+        border-right: none;
+
+
+    }
+
+    .bck-5 {
+        position: absolute;
+        top: 558%;
+        padding: 60px 0px !important;
+    }
+
+    .bck-5::before {
+        content: '';
+        width: 100%;
+        height: 555px;
+        position: absolute;
+        left: 0px;
+        top: -90px;
+        z-index: -1;
+
+        background: url(../images/f.jpg) no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    .bck-5 .card {
+        border: none !important;
+        padding: 5px !important;
+    }
+
+    #card1,
+    #card2 {
+        width: 400px !important;
+        padding: 0px !important;
+        justify-content: flex-end !important;
+    }
+
+    #card1 p,
+    #card2 p {
+        font-size: 18px !important;
+    }
+
+    .bck-5 h2 {
+        font-size: 20px !important;
+    }
+
+    .bck-5 p {
+        font-size: 18px !important;
+
+    }
+
+    .bck-5 .card .btn {
+        position: relative;
+        top: 2px;
+        font-size: 12px;
+    }
+
+    .bck-6 {
+        position: absolute;
+        top: 616%;
+        padding: 30px 0px !important;
+        color: red !important;
+    }
+
+    .bck-6 h2 {
+        font-size: 1.8rem !important;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+    /* <!-- For Laptop --> */
+    .img {
+        width: 300px;
+        margin-left: 10px;
+    }
+
+    .navbar-toggler {
+        margin-right: 15px !important;
+    }
+
+    .position {
+        width: 80%;
+        position: absolute;
+        top: 14%;
+        left: 10%;
+    }
+
+    .position h2 {
+        font-size: 2.2rem;
+
+    }
+
+    .position p {
+        font-size: 25px;
+
+    }
+
+    .position button {
+        font-size: 16px;
+        padding: 3px 6px;
+    }
+
+    .upper {
+        position: absolute;
+        top: 38%;
+        left: 12px;
+        width: 100%;
+
+    }
+
+    .upper .frame {
+        height: 380px;
+    }
+
+    .menu {
+        position: absolute;
+        top: 100%;
+        left: 0%;
+        padding: 0 !important;
+        justify-content: center !important;
+
+
+    }
+
+    .menu .card {
+        width: 40rem !important;
+        padding: 30px 10px !important;
+        margin: 0 6px !important;
+
+    }
+
+    .menu .left-card h2 {
+        font-size: 1rem !important;
+        margin-top: 12px !important;
+    }
+
+    .menu .left-card a {
+        font-size: 10px;
+    }
+
+    .menu .card {
+        height: auto;
+    }
+
+    .menu .card p {
+        font-size: 16px !important;
+    }
+
+    .bck-img {
+        position: absolute;
+        top: 150%;
+        align-items: flex-start;
+        height: 700px;
+        /* border: 2px solid; */
+    }
+
+    .bck-img::before {
+        content: '';
+        width: 100%;
+        height: 750px;
+        background-image: url(images/b2.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+        position: absolute;
+        top: 0%;
+        z-index: -1;
+        opacity: .82;
+
+
+    }
+
+    .bck-img .card {
+        width: 250px !important;
+        height: 450px;
+        padding: 0 !important;
+    }
+
+    .bck-img .card p {
+        font-size: 14px !important;
+    }
+
+    .bck-img .card button {
+        font-size: 8px;
+    }
+
+    .bck-img .card-body img {
+        margin-top: 0px !important;
+    }
+
+    .bck-img .container-img {
+        width: 420px !important;
+    }
+
+    .rate {
+        position: absolute;
+        top: 200%;
+    }
+
+    .rate .card {
+        border: none;
+    }
+
+    .bck-3 {
+        position: absolute;
+        top: 239%;
+        /* border: 2px solid; */
+        height: auto !important;
+        align-items: center !important;
+        justify-content: space-evenly !important;
+
+    }
+
+    .bck-3::before {
+        content: '';
+        width: 100%;
+        height: 864px;
+        position: absolute;
+        top: -152px;
+        left: 0;
+        /* background-color: black; */
+        background: url(images/b3.jpg) no-repeat center center fixed;
+        background-size: COVER;
+        z-index: -1;
+        opacity: .79;
+        /* box-shadow:  -5px -4px 20px black; */
+
+
+    }
+
+    .container-text::before {
+        content: '';
+        width: 80px;
+        height: 10px;
+        border: 4px solid red;
+        position: absolute;
+        left: 38%;
+        top: 38%;
+        border-left: none;
+        border-right: none;
+
+
+    }
+
+    .container-text::after {
+        content: '';
+        width: 80px;
+        height: 10px;
+        border: 4px solid red;
+        position: absolute;
+        right: 38%;
+        top: 38%;
+        border-left: none;
+        border-right: none;
+
+
+    }
+
+    .bck-3 .container-image {
+        margin: 4px 0px !important;
+        padding: 0px !important;
+        width: 180px;
+    }
+
+    .bck-4 {
+        position: absolute;
+        top: 291%;
+        /* background-attachment: fixed; */
+        /* border: 2px solid; */
+
+
+    }
+
+    .fluid-text::before {
+        content: '';
+        width: 70px;
+        height: 10px;
+        border: 4px solid red;
+        position: absolute;
+        left: 38%;
+        top: 58%;
+        border-left: none;
+        border-right: none;
+
+
+    }
+
+    .fluid-text::after {
+        content: '';
+        width: 70px;
+        height: 10px;
+        border: 4px solid red;
+        position: absolute;
+        right: 38%;
+        top: 58%;
+        border-left: none;
+        border-right: none;
+    }
+
+    .bck-5 {
+        position: absolute;
+        top: 335%;
+        padding: 60px 0px !important;
+        flex-wrap: wrap;
+    }
+
+    .bck-5::before {
+        content: '';
+        width: 100%;
+        height: 1486px;
+        position: absolute;
+        left: 0px;
+        top: -239px;
+        z-index: -1;
+
+        background: url(images/f.jpg) no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    .bck-5 .card {
+        /* border: none !important; */
+        padding: 5px !important;
+        margin-top: 20px !important;
+
+    }
+
+    .bck-5 .card .btn {
+
+        font-size: 18px !important;
+        padding: 8px 14px !important;
+    }
+
+    .bck-6 {
+        position: absolute;
+        top: 426%;
+        padding: 30px 0px !important;
+        color: red !important;
+    }
+
+    .bck-6 h2 {
+        font-size: 1.8rem !important;
+    }
+}
+
+
+
+@media only screen and (max-width: 767px) {
+
+    /* <!-- For Tab --> */
+    .img {
+        width: 210px;
+    }
+
+    .position {
+        width: 80%;
+        position: absolute;
+        top: 12%;
+        left: 12%;
+        padding: 5px;
+    }
+
+    .position h2 {
+        font-size: 24px;
+        margin-bottom: 3px !important;
+
+    }
+
+    .position p {
+        font-size: 14px;
+        margin-bottom: 3px !important;
+
+    }
+
+    .position button {
+        font-size: 10px;
+        padding: 2px 8px;
+
+    }
+
+    .upper {
+        position: absolute;
+        top: 42%;
+        left: 2%;
+        width: 100%;
+        padding: 20px !important;
+
+    }
+
+    .menu {
+        position: absolute;
+        top: 140%;
+        left: 0%;
+
+
+        justify-content: center !important;
+        align-items: center !important;
+        flex-wrap: wrap;
+    }
+
+    .menu .card {
+        width: 130px !important;
+        height: 220px;
+        padding: 8px 3px !important;
+        margin: 0px 8px !important;
+        /* padding-top: 30px !important; */
+    }
+
+    .menu .left-card h2 {
+        font-size: .7rem !important;
+        margin: 20px 0px 0px 17px !important;
+    }
+
+    .menu .left-card a {
+        font-size: 6px;
+        padding: 3px 4px;
+    }
+
+
+    .menu .card p {
+        font-size: 8px !important;
+        margin-bottom: 3px !important;
+    }
+
+    .bck-img {
+        position: absolute;
+        top: 180%;
+        align-items: flex-start;
+        height: 900px;
+        /* border: 2px solid wheat; */
+    }
+
+    .bck-img::before {
+        content: '';
+        width: 100%;
+        height: 900px;
+        background-image: url(images/b2.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+        position: absolute;
+        top: 0%;
+        z-index: -1;
+        opacity: .82;
+
+
+    }
+
+    .bck-img .card {
+        width: 100% !important;
+        height: auto;
+        text-align: center;
+        padding: 0 !important;
+    }
+
+    .bck-img .card p {
+        font-size: 14px !important;
+    }
+
+    .bck-img .card button {
+        font-size: 8px;
+    }
+
+    .bck-img .card-body img {
+        margin-top: 0px !important;
+    }
+
+    .bck-img .container-img {
+        width: 420px !important;
+    }
+
+    .rate {
+        flex-wrap: wrap;
+        position: absolute;
+        top: 300%;
+        /* border: 2px solid wheat; */
+    }
+
+    .rate .card {
+        border: none;
+    }
+
+    .bck-3 {
+        position: absolute;
+        top: 405%;
+        /* border: 2px solid; */
+
+    }
+
+    .bck-3::before {
+        content: '';
+        width: 100%;
+        height: 500px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        /* background-color: black; */
+        background: url(images/b3.jpg) no-repeat center center fixed;
+        background-size: COVER;
+        z-index: -1;
+        opacity: .79;
+        /* box-shadow:  -5px -4px 20px black; */
+
+
+    }
+
+    .container-text::before {
+        content: '';
+        width: 70px;
+        height: 10px;
+        border: 4px solid red;
+        position: absolute;
+        left: 34%;
+        top: 52%;
+        border-left: none;
+        border-right: none;
+
+
+    }
+
+    .container-text::after {
+        content: '';
+        width: 70px;
+        height: 10px;
+        border: 4px solid red;
+        position: absolute;
+        right: 34%;
+        top: 52%;
+        border-left: none;
+        border-right: none;
+
+
+    }
+
+    .bck-3 .container-image {
+        margin: 4px 0px !important;
+        padding: 0px !important;
+        width: 90px;
+    }
+
+    .bck-4 {
+        position: absolute;
+        top: 472%;
+        /* background-attachment: fixed; */
+        /* border: 2px solid; */
+
+
+    }
+
+    .bck-4 h2 {
+        font-size: 1.8rem !important;
+    }
+
+    .bck-4 p {
+        font-size: 20px !important;
+    }
+
+    .fluid-text::before {
+        content: '';
+        width: 60px;
+        height: 10px;
+        border: 4px solid red;
+        position: absolute;
+        left: 34%;
+        top: 62%;
+        border-left: none;
+        border-right: none;
+
+
+    }
+
+    .fluid-text::after {
+        content: '';
+        width: 60px;
+        height: 10px;
+        border: 4px solid red;
+        position: absolute;
+        right: 34%;
+        top: 62%;
+        border-left: none;
+        border-right: none;
+
+
+    }
+
+    .bck-5 {
+        width: 100% !important;
+        position: absolute;
+        top: 517%;
+        left: 0%;
+
+
+        flex-wrap: wrap;
+
+
+    }
+
+    .bck-5::before {
+        content: '';
+        width: 100%;
+        height: 1048px;
+        position: absolute;
+        left: 0px;
+        top: -90px;
+        z-index: -1;
+
+        background: url(images/f.jpg) no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    .bck-5 .card {
+        border: none !important;
+        width: auto !important;
+
+
+    }
+
+    .bck-5 .card .btn {
+        margin: auto !important;
+        padding: 8px !important;
+        width: auto !important;
+        font-size: 18px !important;
+    }
+
+    .bck-6 {
+        position: absolute;
+        top: 650%;
+        padding: 30px 0px !important;
+        color: red !important;
+    }
+
+    .bck-6 h2 {
+        font-size: 1.5rem !important;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+
+    /* <!-- For Mobile -->  */
+
+    .navbar-toggler {
+        margin-right: 0px !important;
+    }
+
+    .img {
+        width: 150px;
+        margin-left: 10px !important;
+    }
+
+    .position {
+        width: 80%;
+        position: absolute;
+        top: 9%;
+        left: 10%;
+    }
+
+    .position h2 {
+        font-size: 13px;
+    }
+
+    .position p {
+        font-size: 12px;
+    }
+
+    .position button {
+        font-size: 8px;
+
+    }
+
+    .upper {
+        width: 100% !important;
+        position: absolute;
+        top: 24.4%;
+        left: 12px;
+
+        padding: 10px !important;
+
+    }
+
+    .upper .frame {
+        height: auto;
+    }
+
+    .menu {
+        width: 100% !important;
+        position: absolute;
+        top: 95%;
+        left: 0%;
+    }
+
+    .menu .card {
+        width: 100% !important;
+        height: auto !important;
+        padding: 30px 10px !important;
+        margin: 0px 0px !important;
+        border: none !important;
+        border-radius: 0 !important;
+    }
+
+    .menu .left-card h2 {
+        font-size: 1.5rem !important;
+
+    }
+
+    .menu .left-card a {
+        font-size: 9px;
+    }
+
+
+    .menu .left-card {
+        text-align: center;
+        /* height: 260px  !important; */
+        padding: 10px !important;
+        border: none;
+
+    }
+
+    .menu .card p {
+        font-size: 15px !important;
+    }
+
+    .bck-img {
+        position: absolute;
+        top: 250%;
+        align-items: center;
+        height: 900px;
+        /* border: 2px solid wheat; */
+    }
+
+    .bck-img::before {
+        content: '';
+        width: 100%;
+        height: 1150px;
+        background-image: url(images/b2.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+        position: absolute;
+        top: 0%;
+        z-index: -1;
+        opacity: .82;
+
+
+    }
+
+    .bck-img .card {
+        width: 100% !important;
+        height: auto;
+
+        text-align: center;
+        padding: 0 !important;
+    }
+
+    .bck-img .card p {
+        font-size: 14px !important;
+    }
+
+    .bck-img .card button {
+        font-size: 8px;
+    }
+
+    .bck-img .card-body img {
+        margin-top: 0px !important;
+    }
+
+    .bck-img .container-img {
+        width: 280px !important;
+    }
+
+    .rate {
+        flex-wrap: wrap;
+        position: absolute;
+        top: 375%;
+        /* border: 2px solid wheat; */
+    }
+
+    .rate .card {
+        border: none;
+    }
+
+    .bck-3 {
+        position: absolute;
+        top: 514%;
+        left: 0;
+        padding: 20px 0 !important;
+        width: 100%;
+
+        align-items: center !important;
+        justify-content: space-evenly !important;
+
+    }
+
+    .bck-3::before {
+        content: '';
+        width: 100%;
+        height: 527px;
+        position: absolute;
+        top: -194px;
+        left: 0;
+
+        background: url(images/b3.jpg) no-repeat center center fixed;
+        background-size: COVER;
+        z-index: -1;
+        opacity: .79;
+
+
+
+    }
+
+    .bck-3 .container-heading {
+        text-transform: lowercase;
+        font-size: 14px !important;
+        margin: 12px !important;
+    }
+
+    .container-text::before {
+        content: '';
+        width: 50px;
+        height: 10px;
+        border: 4px solid red;
+        position: absolute;
+        left: 28%;
+        top: 30%;
+        border-left: none;
+        border-right: none;
+
+
+    }
+
+    .container-text::after {
+        content: '';
+        width: 50px;
+        height: 10px;
+        border: 4px solid red;
+        position: absolute;
+        right: 28%;
+        top: 30%;
+        border-left: none;
+        border-right: none;
+
+
+    }
+
+    .bck-3 .container-image {
+        margin-top: 30px !important;
+        padding: 0px !important;
+        width: 54px;
+    }
+
+    .bck-4 {
+        position: absolute;
+        top: 559%;
+        /* background-attachment: fixed; */
+        /* border: 2px solid; */
+
+
+    }
+
+    .bck-4 h2 {
+        font-size: 1rem !important;
+        padding: 0px !important;
+        margin: 5px 0px !important;
+    }
+
+    .bck-4 p {
+        font-size: 14px !important;
+        margin: 0px !important;
+    }
+
+    .fluid-text::before {
+        content: '';
+        width: 50px;
+        height: 8px;
+        border: 3px solid red;
+        position: absolute;
+        left: 28%;
+        top: 46%;
+        border-left: none;
+        border-right: none;
+
+
+    }
+
+    .fluid-text::after {
+        content: '';
+        width: 50px;
+        height: 8px;
+        border: 3px solid red;
+        position: absolute;
+        right: 28%;
+        top: 46%;
+        border-left: none;
+        border-right: none;
+
+
+    }
+
+    .bck-5 {
+        position: absolute;
+        top: 583%;
+        padding: 60px 0px !important;
+        flex-wrap: wrap;
+    }
+
+    .bck-5::before {
+        content: '';
+        width: 100%;
+        height: 1142px;
+        position: absolute;
+        left: 0px;
+        top: -90px;
+        z-index: -1;
+
+        background: url(images/f.jpg) no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    .bck-5 .card {
+        /* border: none !important; */
+        padding: 5px !important;
+        margin-top: 20px !important;
+
+    }
+    .bck-5 .card h2{
+        font-size: 1rem !important;
+    }
+    .bck-5 .card p,#card1 p,#card2 p{
+        font-size: 16px !important;
+    }
+
+    .bck-5 .card .btn {
+
+        font-size: 14px !important;
+        padding: 8px 10px !important;
+    }
+
+    .bck-6 {
+        position: absolute;
+        top: 725%;
+        padding: 30px 10px !important;
+        color: red !important;
+    }
+
+    .bck-6 h2 {
+        font-size: 1.2rem !important;
+    }
+
+}
+
+@media only screen and (min-width:380px) and (max-width:414px) {
+    .menu {
+        width: 100% !important;
+        position: absolute;
+        top: 72%;
+        left: 0%;
+        /* border: 2px solid; */
+    }
+
+    .menu .card {
+        width: 100% !important;
+        height: auto !important;
+        padding: 30px 10px !important;
+        margin: 0px 0px !important;
+        border: none !important;
+        border-radius: 0 !important;
+    }
+
+    .menu .left-card h2 {
+        font-size: 2.5rem !important;
+
+    }
+
+    .menu .left-card a {
+        font-size: 18px;
+    }
+
+
+    .menu .left-card {
+        text-align: center;
+        /* height: 260px  !important; */
+        padding: 10px !important;
+        border: none;
+
+    }
+
+    .menu .card p {
+        font-size: 24px !important;
+    }
+
+    .bck-3 {
+        position: absolute;
+        top: 471%;
+        left: 0;
+        padding: 30px !important;
+        width: 100%;
+        /* border: 2px solid; */
+        align-items: center !important;
+        justify-content: space-evenly !important;
+
+    }
+
+    .bck-3::before {
+        content: '';
+        width: 100%;
+        height: 468px;
+        position: absolute;
+        top: -66px;
+        left: 0;
+        /* background-color: black; */
+        background: url(images/b3.jpg) no-repeat center center fixed;
+        background-size: COVER;
+        z-index: -1;
+        opacity: .79;
+        /* box-shadow:  -5px -4px 20px black; */
+
+
+    }
+
+    .bck-3 .container-heading {
+        /* text-transform: lowercase; */
+        font-size: 22px !important;
+        margin: 22px !important;
+        /* background-color:transparent !importan27 */
+    }
+
+    .container-text::before {
+        content: '';
+        width: 70px;
+        height: 10px;
+        border: 4px solid red;
+        position: absolute;
+        left: 28%;
+        top: 43%;
+        border-left: none;
+        border-right: none;
+
+
+    }
+
+    .container-text::after {
+        content: '';
+        width: 70px;
+        height: 10px;
+        border: 4px solid red;
+        position: absolute;
+        right: 28%;
+        top: 43%;
+        border-left: none;
+        border-right: none;
+
+
+    }
+
+    .bck-3 .container-image {
+        margin-top: 30px !important;
+        padding: 0px !important;
+        width: 60px;
+    }
+
+    .bck-4 {
+        position: absolute;
+        top: 515%;
+        /* background-attachment: fixed; */
+        /* border: 2px solid; */
+
+
+    }
+
+    .fluid-text::before {
+        content: '';
+        width: 50px;
+        height: 10px;
+        border: 4px solid red;
+        position: absolute;
+        left: 32%;
+        top: 46%;
+        border-left: none;
+        border-right: none;
+
+
+    }
+
+    .fluid-text::after {
+        content: '';
+        width: 50px;
+        height: 10px;
+        border: 4px solid red;
+        position: absolute;
+        right: 32%;
+        top: 46%;
+        border-left: none;
+        border-right: none;
+
+
+    }
+
+    .bck-5 {
+        position: absolute;
+        top: 528%;
+        padding: 60px 0px !important;
+        flex-wrap: wrap;
+    }
+
+    .bck-5::before {
+        content: '';
+        width: 100%;
+        height: 1070px;
+        position: absolute;
+        left: 0px;
+        top: -90px;
+        z-index: -1;
+
+        background: url(images/f.jpg) no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    .bck-5 .card {
+        /* border: none !important; */
+        padding: 5px !important;
+        margin-top: 20px !important;
+
+    }
+
+    .bck-5 .card .btn {
+
+        font-size: 16px !important;
+        padding: 8px 10px !important;
+    }
+
+    .bck-6 {
+        position: absolute;
+        top: 635%;
+        padding: 30px 10px !important;
+        color: red !important;
+
+    }
+
+    .bck-6 h2 {
+        font-size: 1.2rem !important;
+    }
+
+}
